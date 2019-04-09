@@ -24,12 +24,12 @@ this command to a file called abc.txt
 file called aaa.txt
 10. ps -u sallesina - report information on current running processes 
 under the user sallesina
-11. top - program that displays running cpu/ memory utilization in an ordered
-list 
-12. ls | grep .sh | xargs mv /tmp - moves all the files that end in .sh into
- temproary files  
-13. du -sk /home/* | sort -r -n | head -10 - display the first 10 lines of a 
-numerical list of the files found in your home directory, including 
-subdirectries, and sort them by estimated file space
-14. sort -r names.txt - sort all the directories, including, the 
-subdirectories that have a file called names.text 
+11. top - displays the tasks being run by the program 
+12. ls | grep .sh | xargs mv /tmp - ls takes lists all the files, but grep
+combined with xargs ensure that only the list of files ending in .sh are 
+moved to temporary finals
+13. du -sk /home/* | sort -r -n | head -10 - displays the first 10 lines 
+of the estimated file space usage recursively in a numerical list that 
+is limited to 1K in block-size
+14. sort -r names.txt - sort the lines of the names.txt file reverse to the 
+result of comparison (recursively) 
