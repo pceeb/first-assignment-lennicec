@@ -14,7 +14,7 @@ II. Answer the following question. What does this do?
 4. cd ~ takes you to your home directory, same as cd $HOME # Correct!
 5. mkdir -p /test1/test2/test3 - create the directory test1, test2, and test3 # Correct! But what is -p doing. How is this different than just `mkdir`
 6. cp -r /tmp . - copy a directory, including all its subdirectories, from
- temporary files # Correct!
+ temporary files # Correct! But what is -r doing????
 7. ls | less - progressively print the first ten lines worth of the files on
  the screen # Incorrect! Actually will print a list of files and directories in less format !! 
 8. head -n 24 test.txt » abc.txt - print the first few lines of using numeric 
