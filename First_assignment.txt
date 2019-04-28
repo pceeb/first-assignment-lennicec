@@ -8,28 +8,28 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]* - list all file beginnig with an uppercase letter 
-2. cp *.sh /tmp - copy all files that end with ".sh" into trmporary files
-3. man pwd - show help page of command pwd, will tell you what pwd does
-4. cd ~ takes you to your home directory, same as cd $HOME
-5. mkdir -p /test1/test2/test3 - create the directory test1, test2, and test3 
+1. ls [A-Z]* - list all file beginnig with an uppercase letter # Correct!
+2. cp *.sh /tmp - copy all files that end with ".sh" into trmporary files # Correct!
+3. man pwd - show help page of command pwd, will tell you what pwd does # Correct!
+4. cd ~ takes you to your home directory, same as cd $HOME # Correct!
+5. mkdir -p /test1/test2/test3 - create the directory test1, test2, and test3 # Correct! But what is -p doing. How is this different than just `mkdir`
 6. cp -r /tmp . - copy a directory, including all its subdirectories, from
- temporary files
+ temporary files # Correct!
 7. ls | less - progressively print the first ten lines worth of the files on
- the screen 
+ the screen # Incorrect! Actually will print a list of files and directories in less format !! 
 8. head -n 24 test.txt » abc.txt - print the first few lines of using numeric 
 values instead of dictionary for the file test.txt, and add the output from 
-this command to a file called abc.txt
+this command to a file called abc.txt # Correct! 
 9. echo "aaa" > aaa.txt - redirect the printing of the string "aaa" to the
-file called aaa.txt
+file called aaa.txt #	Correct!
 10. ps -u sallesina - report information on current running processes 
-under the user sallesina
-11. top - displays the tasks being run by the program 
+under the user sallesina # Correct! Try it with your username in Hoffman
+11. top - displays the tasks being run by the program #	Correct! 
 12. ls | grep .sh | xargs mv /tmp - ls takes lists all the files, but grep
 combined with xargs ensure that only the list of files ending in .sh are 
-moved to temporary finals
+moved to temporary finals # Correct!
 13. du -sk /home/* | sort -r -n | head -10 - displays the first 10 lines 
 of the estimated file space usage recursively in a numerical list that 
-is limited to 1K in block-size
+is limited to 1K in block-size  #Correct!
 14. sort -r names.txt - sort the lines of the names.txt file reverse to the 
-result of comparison (recursively) 
+result of comparison (recursively) #Correct!  
